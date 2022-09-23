@@ -16,13 +16,13 @@ const Logo = styled.img`
 
   @keyframes color-change-logo {
   0% {
-    border: 5px solid rgba(196,22,190);
+    border: 10px solid rgba(196,22,190);
   }
   50% {
-    border: 5px solid rgba(229,106,53);
+    border: 10px solid rgba(229,106,53);
   }
   100% {
-    border: 5px solid #b22cff;
+    border: 10px solid #b22cff;
   }
   }
 `;
@@ -109,8 +109,8 @@ const Render = () => {
           <Logo src={LogoSrc} className="color-change-logo"/>
           <div className='text'>
             <h1>I am a super simple</h1>
-            <h1>responsive site template freebie</h1>
-            <h1>crafted by HTML5 UP.</h1>
+            <h1>responsive site</h1>
+            <h1>made by fejigu</h1>            
             </div>
             </div>
             </div>
