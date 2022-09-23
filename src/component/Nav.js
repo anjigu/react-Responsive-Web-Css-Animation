@@ -13,6 +13,7 @@ const Wrapper = styled.div`
     font-size: 50px;
     padding-top: 10px;
     padding-left: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif
   }
 
   .button {

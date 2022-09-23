@@ -5,12 +5,14 @@ import Main from './pages/Main';
 import Footer from './component/Footer';
 
 
+
 function App() {
   return (
     <div className="App">
       <Nav />
       <Routes>
         <Route path="/" element={<Main />} />
+    
       </Routes>
       <Footer />
     </div>
